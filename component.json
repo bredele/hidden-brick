@@ -1,0 +1,14 @@
+{
+  "name": "hidden-plugin",
+  "repo": "bredele/hidden-plugin",
+  "description": "Hide DOM element with boolean",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": [
+    "index.js"
+  ]
+}
