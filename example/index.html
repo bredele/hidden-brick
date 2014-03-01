@@ -3,9 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Hidden brick</title>
+	<style>
+	  .hidden {
+	  	display:none;
+	  }
+	</style>
 </head>
 <body>
-	<span hide="!show">hidden</span>
+	<span hide="!show" class="hidden">hidden</span>
 	<p hide="show">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, labore aliquid molestiae modi temporibus. Ex, quis, similique qui provident necessitatibus saepe blanditiis laboriosam nostrum corporis quibusdam impedit libero veniam earum?</p>
 	<script src="../build/build.js"></script>
 	<script>
@@ -17,7 +22,7 @@
 
 	  setInterval(function() {
 	  	view.set('show', !view.get('show'));
-	  }, 700);
+	  }, 500);
 	</script>
 </body>
 </html>

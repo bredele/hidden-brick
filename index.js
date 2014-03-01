@@ -1,6 +1,14 @@
 var classes = require('classes');
 
 
+function toggle(node, val) {
+	if(val) {
+		classes(node).remove('hidden');
+	} else {
+		classes(node).add('hidden');
+	}
+}
+
 /**
  * Conditionally add 'hidden' class.
  * @param {HTMLElement} node 
@@ -9,11 +17,9 @@ var classes = require('classes');
  */
 
 module.exports = function(node, attr) {
+	var bool = (attr[0] === '!');
+	if(bool) attr = attr.substring(1);
 	this.on('change ' + attr, function(val) {
-		if(val) {
-			classes(node).remove('hidden');
-		} else {
-			classes(node).add('hidden');
-		}
+		toggle(node, bool ? !val : val);
 	});
 };
