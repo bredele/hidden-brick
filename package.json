@@ -1,0 +1,30 @@
+{
+  "name": "hidden-brick",
+  "version": "0.0.1",
+  "description": "Lego plugin to hide/show dom elements",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bredele/hidden-brick.git"
+  },
+  "keywords": [
+    "lego",
+    "brick",
+    "mvvm",
+    "mvc",
+    "dom",
+    "hide",
+    "show"
+  ],
+  "author": "Olivier Wietrich <olivier.wietrich@gmail.com> (http://github.com/bredele)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bredele/hidden-brick/issues"
+  }
+}
