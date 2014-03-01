@@ -26,5 +26,11 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/bredele/hidden-brick/issues"
+  },
+  "browser" : {
+    "classes" : "component-classes"
+  },
+  "dependencies": {
+    "component-classes": "~1.2.1"
   }
 }
