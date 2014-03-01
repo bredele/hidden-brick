@@ -1,13 +1,15 @@
 {
-  "name": "hidden-plugin",
-  "repo": "bredele/hidden-plugin",
-  "description": "Hide DOM element with boolean",
+  "name": "hidden-brick",
+  "repo": "bredele/hidden-brick",
+  "description": "Lego plugin to hide/show a dom element",
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
     "component/classes" : "*"
   },
-  "development": {},
+  "development": {
+    "bredele/lego" : "*"
+  },
   "license": "MIT",
   "main": "index.js",
   "scripts": [
