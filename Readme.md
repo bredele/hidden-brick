@@ -1,6 +1,6 @@
 # hidden-brick
 
-  [Lego](https://github.com/bredele/lego) plugin to hide/show dom elements. 
+  [Brick](https://github.com/bredele/brick) plugin to hide/show dom elements. 
 
 ## Installation
 
@@ -14,7 +14,7 @@ with [nodejs](http://nodejs.org):
 
 ## Usage
 
-First, add the plugin to your view (see [lego](https://github.com/bredele/lego) to know more about views):
+First, add the plugin to your view (see [brick](https://github.com/bredele/brick) to know more about views):
 
 ```js
 view.add('hide', require('hidden-brick'));
@@ -28,7 +28,7 @@ view.add('hide', require('hidden-brick'));
 <span hide="!bool">show on truethy</span>
 ```
 
-  Listen changes on `bool` attribute of lego's view and apply `hidden` class.
+  Listen changes on `bool` attribute of brick's view and apply `hidden` class.
 
 see [live example](https://github.com/bredele/hidden-brick/tree/master/example)
 

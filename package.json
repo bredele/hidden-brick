@@ -1,7 +1,7 @@
 {
   "name": "hidden-brick",
   "version": "0.0.1",
-  "description": "Lego plugin to hide/show dom elements",
+  "description": "Brick plugin to hide/show dom elements",
   "main": "index.js",
   "directories": {
     "example": "example"
@@ -14,7 +14,6 @@
     "url": "git://github.com/bredele/hidden-brick.git"
   },
   "keywords": [
-    "lego",
     "brick",
     "mvvm",
     "mvc",
